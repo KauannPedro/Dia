@@ -83,7 +83,7 @@
         }
     }
 
-    @media(max-width: 360px) {
+    @media(min-width: 360px ) and (max-width: 468px)  {
         header {
             padding: 0px 10px !important;
             font-size: 10px !important;
@@ -115,8 +115,6 @@
                 margin: 20px 0px;
                 background-color: #a0c6e8;
             }
-
-
         }
     }
 }

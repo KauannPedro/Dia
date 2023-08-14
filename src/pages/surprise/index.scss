@@ -130,7 +130,7 @@
     }
   }
 
-  @media(max-width: 360px) {
+  @media(min-width: 340px ) and (max-width: 468px) {
 
     header {
       padding: 0px 10px;
@@ -139,7 +139,6 @@
 
       img {
         width: 25px;
-
       }
     }
 
